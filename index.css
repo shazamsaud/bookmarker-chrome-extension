@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap");
+
+
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    min-width: 400px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+
+    font-size: 15px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 4px;
+}
+
+button{
+    background: #5f9341;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid;
+    font-size: 15px;
+    
+    /* border-radius: 25px; */
+}
+button:hover{
+    background: black;
+    color: #5f9341;
+}
+
+#del-btn{
+    background-color: whitesmoke;
+    color: #5f9341;
+    border: 2px solid #5f9341;
+}
+#del-btn:hover{
+    background: black;
+    color:red
+}
+ul{
+    /* padding-left: 10px; */
+    
+}
+li{
+    margin-top: 5px;
+}
+
+li a{
+    color:rgb(77, 126, 5);
+}
+.para{
+    padding-left: 330px;
+}

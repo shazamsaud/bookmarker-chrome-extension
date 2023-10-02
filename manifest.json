@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "version" : "1.0",
+    "name" : "BookMarker by Shaz",
+    "action":{
+        "default_popup": "home.html",
+        "default_icon" : "logo.png"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
